@@ -1,21 +1,22 @@
-#Bienvenida
-print (Bienvenido a su calculadora IMC)
+#Bienvenido
+print ("Bienvenido a su calculadora IMC")
 
 #Solicitar nombre de usuario
-nombre:str=str(input(Nombre completo))
+nombre: str=(input("Nombre del usuario"))
 
 #apellidos del usuario
-Brinde_sus_apellidos:str="Pichardo" 
+apellidos: str = (input("Brinde sus apellidos"))
 
 #edad del usuario
-Digite_su_edad:int="21"
+edad : int = int(input("Brinde su edad"))
 
 #debe solicitar el peso del usuario
-Digite_su_peso_en_Kg:int= "60"
+peso : float =float(input("Brinde su peso"))
 
 #Altura
-Digite_su_altura:float = "1.70"
+altura : float =float(input("Brinde su altura"))
 
-#Imprimir datos del usuario
-print
+#calcular el IMC
+imc=peso/(altura**2)
+ if 
 

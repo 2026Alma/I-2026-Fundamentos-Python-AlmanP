@@ -34,5 +34,5 @@ x = 10
 x += 5
 
 #imprimir resultado del ejemplo
-print:(x)
+print(x)
 
