@@ -1,4 +1,3 @@
-#Bienvenido
 print ("Bienvenido a su calculadora IMC")
 
 #Solicitar nombre de usuario
@@ -18,5 +17,20 @@ altura : float =float(input("Brinde su altura"))
 
 #calcular el IMC
 imc=peso/(altura**2)
- if 
+clasificacion = ""
+if imc < 18.5 :
+    clasificacion="Bajo peso"
+elif imc < 24.9 :
+    clasificacion= "Peso normal"
+elif imc < 29.9 :
+    clasificacion= "Sobrepeso"
+elif imc>=30:
+    clasificacion="Obesidad"
+
+print("Nombre: ", nombre,apellidos ) 
+print("edad:",edad)
+print("IMC:",imc)
+print("clasificacion:",clasificacion)
+
+
 
