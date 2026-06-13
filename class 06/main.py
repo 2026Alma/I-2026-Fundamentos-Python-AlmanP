@@ -10,5 +10,5 @@ while True:
     print("3:Salir")
     opcion = int(input("Seleccione una opcion"))
     if opcion == 1
-      print()
+      print(nombre)
 
