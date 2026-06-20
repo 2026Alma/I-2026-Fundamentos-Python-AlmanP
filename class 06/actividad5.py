@@ -10,7 +10,7 @@ def retirar(saldo):
     if cantidad > saldo :
         print ("No tiene suficiente saldo")
         return saldo
-    else:
+        else:
         saldo = saldo - cantidad
         print (f"Ha retirado: {cantidad}")
         return saldo
