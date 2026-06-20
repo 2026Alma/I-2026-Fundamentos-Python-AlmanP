@@ -1,0 +1,6 @@
+Descripción general del problema
+Las personas tienen problemás al crear contraseñas pocos seguras y faciles de vulnerar además de repititivas.
+Objetivo del programa propuesto
+Analizar contraseñas para protección del usuario, con recomendaciones o sugerencias pra su seguridad.
+Posibles personas que pueden utilizar el programa
+Todas las personas 
