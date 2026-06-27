@@ -88,6 +88,8 @@ class Contraseña:
             contrasena += random.choice(numbers)
         return contrasena
         
+        
+
     
 
     
@@ -96,26 +98,26 @@ class Contraseña:
 
 contraseñas = []
 contrasena = Contraseña()
-           while True:
-            print("Bienvenido al analizador de contraseñas seguras")
-            print("1. Analizar contraseña")
-            print("2. Ver contraseñas analizadas")
-            print("3. Generar contraseña segura")
-            print("4. Salir")
+while True:
+        print("Bienvenido al analizador de contraseñas seguras")
+        print("1. Analizar contraseña")
+        print("2. Ver contraseñas analizadas")
+        print("3. Generar contraseña segura")
+        print("4. Salir")
 
-            opcion = int(input( "Seleccione una opción:" ))
-            if opcion == 1:
-            contraseña = input("Ingrese la contraseña a analizar: ")
-            contrasena.analizar(contraseña)
-            contraseñas.append(contraseña)
-            elif opcion == 2:
-            print("Contraseñas analizadas:", contraseñas)
-            elif opcion == 3 :
-            contrasena.generar()
-            print("Contraseña segura generada:  ", contrasena.generar())
-            break
+opcion = int(input( "Seleccione una opción:" ))
+    if opcion == 1:
+        contraseña = input("Ingrese la contraseña a analizar: ")
+        contrasena.analizar(contraseña)
+        contraseñas.append(contraseña)
+    elif opcion == 2:
+     print("Contraseñas analizadas:", contraseñas)
+    elif opcion == 3 :
+        contrasena.generar()
+        print("Contraseña segura generada:  ", contrasena.generar())
+        break
 
-        elif opcion == 4:
-                 print("Gracias por usar el analizador de contraseñas seguras. ")
-            break
-            print("Opción no valida. Por favor seleccione una opción del 1 al 3.")
+    elif opcion == 4:
+        print("Gracias por usar el analizador de contraseñas seguras. ")
+        break
+        print("Opción no valida. Por favor seleccione una opción del 1 al 3.")
